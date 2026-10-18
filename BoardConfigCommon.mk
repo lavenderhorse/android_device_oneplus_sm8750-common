@@ -180,6 +180,7 @@ BOARD_USES_METADATA_PARTITION := true
 
 # Partitions
 BOARD_PRODUCTIMAGE_MINIMAL_PARTITION_RESERVED_SIZE := false
+-include vendor/infinity/config/BoardConfigReservedSize.mk
 -include vendor/lineage/config/BoardConfigReservedSize.mk
 BOARD_BOOTIMAGE_PARTITION_SIZE := 100663296
 BOARD_DTBOIMG_PARTITION_SIZE := 25165824
